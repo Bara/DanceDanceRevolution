@@ -62,7 +62,7 @@ rm -r build/addons/metamod
 rm -r build/addons/sourcemod/bin
 rm -r build/addons/sourcemod/configs/geoip
 rm -r build/addons/sourcemod/configs/sql-init-scripts
-rm build/addons/sourcemod/configs/* 2> /dev/null
+find . ! -name 'videogames.txt' -type f -exec rm -f {} +
 rm -r build/addons/sourcemod/data
 rm -r build/addons/sourcemod/extensions
 rm -r build/addons/sourcemod/gamedata
