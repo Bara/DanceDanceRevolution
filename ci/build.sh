@@ -15,7 +15,6 @@ tar -xzf sourcemod.tar.gz
 
 echo "Give compiler rights for compile"
 chmod +x addons/sourcemod/scripting/spcomp
-e
 
 echo "Compile ddr plugins"
 for file in addons/sourcemod/scripting/ddr*.sp
