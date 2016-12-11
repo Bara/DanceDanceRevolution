@@ -1,0 +1,988 @@
+"Phrases"
+{
+	"DDR_Admin_Testing"
+	{
+		"en"			"An admin is testing a sequence for a song, please wait..."
+		"fr"			"Un admin est en train de tester une musique, patientez..."
+		"de"			"Ein Admin testet gerade eine Sequenz, bitte warte..."
+		"pl"			"Admin obecnie testuje sekwencje jednego z utworow, prosze czekac..."
+		"da"			"En admin er igang med at teste en sekvens til en sang, vent venligst..."
+	}
+
+	"DDR_Admin_Recording"
+	{
+		"en"			"An admin is recording a new sequence for a song, please wait..."
+		"fr"			"Un admin est en train d'enregistrer une musique, patientez..."
+		"de"			"Ein Admin nimmt gerade eine neue Sequenz auf, bitte warte..."
+		"pl"			"Admin obecnie nagrywa nowa sekwencje dla utworu, prosze czekac..."
+		"da"			"En admin er igang med a optage en ny sekvens til en sang, vent venligst..."
+	}
+
+	"DDR_Team1"
+	{
+		"en"			"Team 1"
+		"fr"			"Équipe 1"
+		"de"			"Team 1"
+		"pl"			"Druzyna 1"
+		"da"			"Hold 1"
+	}
+
+	"DDR_Team2"
+	{
+		"en"			"Team 2"
+		"fr"			"Équipe 2"
+		"de"			"Team 2"
+		"pl"			"Druzyna 2"
+		"da"			"Hold 2"
+	}
+
+	"DDR_Solo"
+	{
+		"en"			"Solo"
+		"fr"			"Solo"
+		"de"			"Solo"
+		"pl"			"Solo"
+		"da"			"Solo"
+	}
+
+	"DDR_Not_Chosen"
+	{
+		"en"			"Not chosen!"
+		"fr"			"Aucune"
+		"de"			"Nicht ausgewählt!"
+		"pl"			"Wybierz team!"
+		"da"			"Ingen sang er valgt!"
+	}
+
+	"DDR_Empty_WaitList"
+	{
+		"#format"		"{1:s}"
+		"en"			"No song in wait list found. Go to the DJ and let her know which song you like to play on.\n\nPlatform: {1}"
+		"fr"			"Aucune musique dans la file. Allez jusqu'au DJ et dites lui la musique de votre choix.\n\nPlateforme: {1}"
+		"de"			"Es wurde kein Lied in der Warteliste gefunden. Geh zur DJane und wünsch dir bei ihr ein Lied.\n\nPlatform: {1}"
+		"pl"			"Nie znaleziono zadnego utworu na liscie oczekujacych. Idz do DJ'a i daj mu znac jaka piosenke chcesz wybrac."
+		"da"			"Ingen sang er fundet i ventelisten. Gå hen til en DJ og fortæl hende hvad for en sang du vil spille på.\n\nPlatform: {1}"
+	}
+
+	"DDR_Next_Song_Name"
+	{
+		"#format"		"{1:s},{2:s},{3:s},{4:s}"
+		"en"			"{1} Next song: {darkred}{2} {lightgreen}({{3}}{4}{lightgreen})"
+		"fr"			"{1} Prochaine musique: {darkred}{2} {lightgreen}({{3}}{4}{lightgreen})"
+		"de"			"{1} Nächstes Lied: {darkred}{2} {lightgreen}({{3}}{4}{lightgreen})"
+		"pl"			"{1} Nastepny utwor: {darkred}{2} {lightgreen}({{3}}{4}{lightgreen})"
+		"da"			"{1} Næste sang: {darkred}{2} {lightgreen}({{3}}{4}{lightgreen})"
+	}
+	
+	"DDR_Add_To_Waitlist"
+	{
+		"#format"		"{1:s},{2:N},{3:s},{4:s},{5:s}"
+		"en"			"{1} {orchid}{2} {lightgreen}add {darkred}{3} {lightgreen}({{4}}{5}{lightgreen}) to the waiting list!"
+		"de"			"{1} {orchid}{2} {lightgreen}fügt {darkred}{3} {lightgreen}({{4}}{5}{lightgreen}) der Warteliste hinzu!"
+	}
+	
+	"DDR_Remove_From_Waitlist"
+	{
+		"#format"		"{1:s},{2:s},{3:s},{4:s}"
+		"en"			"{1} {darkred}{2} {lightgreen}({{3}}{4}{lightgreen}) was removed from the waiting list!"
+		"de"			"{1} {darkred}{2} {lightgreen}({{3}}{4}{lightgreen}) wurde aus der Warteliste entfernt!"
+	}
+
+	"DDR_Next_Song_Chosen_By"
+	{
+		"#format"		"{1:s},{2:N}"
+		"en"			"{1} Song chosen by {darkred}{2}"
+		"fr"			"{1} Musique choisi par {darkred}{2}"
+		"de"			"{1} Lied ausgesucht von {darkred}{2}"
+		"pl"			"{1} Utwor wybrany przez {darkred}{2}"
+		"da"			"{1} Sang valgt af {darkred}{2}"
+	}
+
+	"DDR_TeamCount_Platform"
+	{
+		"#format"		"{1:d},{2:d},{3:s}"
+		"en"			"Team 1: {1} Team 2: {2}\nPlatform: {3}"
+		"fr"			"Équipe 1: {1} Équipe 2: {2}\nPlateforme: {3}"
+		"de"			"Team 1: {1} Team 2: {2}\nPlattform: {3}"
+		"pl"			"Druzyna 1: {1} Druzyna 2: {2}\nPlatforma: {3}"
+		"da"			"Hold 1: {1} Hold 2: {2}\nPlatform: {3}"
+	}
+
+	"DDR_Song_Countdown_10"
+	{
+		"#format"		"{1:s},{2:s},{3:s},{4:s},{5:d}"
+		"en"			"{1} {darkred}{2} {lightgreen}({{3}}{4}{lightgreen}) {lightgreen}is starting in {darkred}{5} {lightgreen}seconds."
+		"fr"			"{1} {darkred}{2} {lightgreen}({{3}}{4}{lightgreen}) {lightgreen}commence dans {darkred}{5} {lightgreen}secondes."
+		"de"			"{1} {darkred}{2} {lightgreen}({{3}}{4}{lightgreen}) {lightgreen}beginnt in {darkred}{5} {lightgreen}Sekunden."
+		"pl"			"{1} {darkred}{2} {lightgreen}({{3}}{4}{lightgreen}) {lightgreen}start za {darkred}{5} {lightgreen}sekund."
+		"da"			"{1} {darkred}{2} {lightgreen}({{3}}{4}{lightgreen}) {lightgreen}Starter om {darkred}{5} {lightgreen}sekunder."
+	}
+
+	"DDR_Song_Countdown_5"
+	{
+		"#format"		"{1:s},{2:s},{3:s},{4:s},{5:d},{6:s}"
+		"en"			"{1} {darkred}{2} {lightgreen}({{3}}{4}{lightgreen}) {lightgreen}is starting in {darkred}{5} {lightgreen}second{6}."
+		"fr"			"{1} {darkred}{2} {lightgreen}({{3}}{4}{lightgreen}) {lightgreen}commence dans {darkred}{5} {lightgreen}seconde{6}."
+		"de"			"{1} {darkred}{2} {lightgreen}({{3}}{4}{lightgreen}) {lightgreen}beginnt in {darkred}{5} {lightgreen}Sekunde{6}."
+		"pl"			"{1} {darkred}{2} {lightgreen}({{3}}{4}{lightgreen}) {lightgreen}start za {darkred}{5} {lightgreen}sekund{6}."
+		"da"			"{1} {darkred}{2} {lightgreen}({{3}}{4}{lightgreen}) {lightgreen}Starter om {darkred}{5} {lightgreen}sekunder{6}."
+	}
+
+	"DDR_Seconds"
+	{
+		"en"			"s"
+		"de"			"n"
+	}
+
+	"DDR_Team_Balanced"
+	{
+		"#format"		"{1:s}"
+		"en"			"{1} {green}Teams now balanced!"
+		"fr"			"{1} {green}Équipes équilibrées !"
+		"de"			"{1} {green}Die Teams sind ausgeglichen."
+		"pl"			"{1} {green}Druzyny zostaly zbalansowane!"
+		"da"			"{1} {green}Holdene er nu balencerede."
+	}
+
+	"DDR_Team_Not_Balanced"
+	{
+		"#format"		"{1:s}"
+		"en"			"{1} {darkred}Teams not balanced!"
+		"fr"			"{1} {darkred}Équipes non équilibrées !"
+		"de"			"{1} {darkred}Die Teams sind nicht ausgeglichen!"
+		"pl"			"{1} {darkred}Druzyny niezbalansowane!"
+		"da"			"{1} {darkred}Holdene er ikke balencerede!"
+	}
+
+	"DDR_Team_Not_Balanced_After_Start"
+	{
+		"#format"		"{1:s}"
+		"en"			"{1} {lightgreen}Teams NOT balanced! Forced all players to solo mode!"
+		"fr"			"{1} {lightgreen}Équipes NON équilibrées ! Tous les joueurs joueront en Solo !"
+		"de"			"{1} {lightgreen}Die Teams sind nicht ausgeglichen! Alle Spieler werden Solo spielen!"
+		"pl"			"{1} {lightgreen}Druzyny sa niezbalansowane! Wszyscy gracze zostali zmuszeni to trybu solo!"
+		"da"			"{1} {lightgreen}Holdene er ikke balencerede! Alle spiller nu solo!"
+	}
+
+	"DDR_Team1_Players"
+	{
+		"#format"		"{1:s},{2:s}"
+		"en"			"{1} Team 1: {purple}{2}"
+		"fr"			"{1} Équipe 1: {purple}{2}"
+		"de"			"{1} Team 1: {purple}{2}"
+		"pl"			"{1} Druzyna 1: {purple}{2}"
+		"da"			"{1} Hold 1: {purple}{2}"
+	}
+
+	"DDR_Team2_Players"
+	{
+		"#format"		"{1:s},{2:s}"
+		"en"			"{1} Team 2: {purple}{2}"
+		"fr"			"{1} Équipe 2: {purple}{2}"
+		"de"			"{1} Team 2: {purple}{2}"
+		"pl"			"{1} Druzyna 2: {purple}{2}"
+		"da"			"{1} Hold 1: {purple}{2}"
+	}
+
+	"DDR_Solo_Players"
+	{
+		"#format"		"{1:s},{2:s}"
+		"en"			"{1} Solo: {lime}{2}"
+		"fr"			"{1} Solo: {lime}{2}"
+		"de"			"{1} Solo: {lime}{2}"
+		"pl"			"{1} Solo: {lime}{2}"
+		"da"			"{1} Solo: {lime}{2}"
+	}
+
+	"DDR_Main_Rank_Menu_Title"
+	{
+		"#format"		"{1:d},{2:d}"
+		"en"			"Ranking menu Level: {1} EXP: {2}"
+		"fr"			"Menu - Niveau: {1} XP: {2}"
+		"de"			"Ranking Menu Level: {1} XP: {2}"
+		"pl"			"Menu rankingowe: {1} XP: {2}"
+		"da"			"Rang menuen Level: {1} EXP: {2}"
+	}
+
+	"DDR_Main_Rank_Menu_Highscore"
+	{
+		"en"			"My highscore"
+		"fr"			"Mes meilleurs scores"
+		"de"			"Mein Highscore"
+		"pl"			"Moj rekord"
+		"da"			"Min highscore"
+	}
+
+	"DDR_Main_Rank_Menu_Profile"
+	{
+		"en"			"My profile (disabled)"
+		"fr"			"Mon profil (désactivé)"
+		"de"			"Mein Profil (deaktiviert)"
+		"pl"			"Moj profil (wylaczone)"
+		"da"			"Min profil (deaktiveret)"
+	}
+
+	"DDR_Main_Rank_Menu_Online_Profile"
+	{
+		"en"			"Online player profile (disabled)"
+		"fr"			"Profils des joueurs (désactivé)"
+		"de"			"Spielerprofile (deaktiviert)"
+		"pl"			"Profil gracza online (wylaczone)"
+		"da"			"Online spiller profil (deaktiveret)"
+	}
+
+	"DDR_Main_Rank_Menu_Top50_Players"
+	{
+		"en"			"Top 50 Players"
+		"fr"			"Top 50 Joueurs"
+		"de"			"Top 50 Spieler"
+		"pl"			"Top 50 Graczy"
+		"da"			"Top 50 Spillere"
+	}
+
+	"DDR_Main_Rank_Menu_Top50_Scores"
+	{
+		"en"			"Top 50 Scores"
+		"fr"			"Top 50 Scores"
+		"de"			"Top 50 Scores"
+		"pl"			"Top 50 Rekordow"
+		"da"			"Top 50 Scores"
+	}
+
+	"DDR_Main_Rank_Menu_Top50_FC"
+	{
+		"en"			"Top 50 Full Combo"
+		"fr"			"Top 50 Full Combo"
+		"de"			"Top 50 Full Combo"
+		"pl"			"Top 50 Pelnych Combo"
+		"da"			"Top 50 Full Combo"
+	}
+
+	"DDR_Top50_Score"
+	{
+		"#format"		"{1:d},{2:s},{3:s},{4:d}"
+		"en"			"Score: {1} ({2} | {3}) [MaxCombo: {4}]"
+		"fr"			"Score: {1} ({2} | {3}) [MaxCombo: {4}]"
+		"de"			"Score: {1} ({2} | {3}) [MaxCombo: {4}]"
+		"pl"			"Score: {1} ({2} | {3}) [MaxCombo: {4}]"
+		"da"			"Score: {1} ({2} | {3}) [MaxCombo: {4}]"
+	}
+
+	"DDR_Top30_FC"
+	{
+		"#format"		"{1:d},{2:s},{3:s},{4:s},{5:d}"
+		"en"			"Top {1} : {2} | {3} ({4}) | {5} Combos"
+		"fr"			"Top {1} : {2} | {3} ({4}) | {5} Combos"
+		"de"			"Top {1} : {2} | {3} ({4}) | {5} Combos"
+		"pl"			"Top {1} : {2} | {3} ({4}) | {5} Combo"
+		"da"			"Top {1} : {2} | {3} ({4}) | {5} Combos"
+	}
+
+	"DDR_Top50_Player"
+	{
+		"#format"		"{1:d},{2:s},{3:d}"
+		"en"			"Top {1} : {2} ({3})"
+		"fr"			"Top {1} : {2} ({3})"
+		"de"			"Top {1} : {2} ({3})"
+		"pl"			"Top {1} : {2} ({3})"
+		"da"			"Top {1} : {2} ({3})"
+	}
+
+	"DDR_Top30_Player"
+	{
+		"#format"		"{1:d},{2:s},{3:d}"
+		"en"			"Top {1} : {2} ({3})"
+		"fr"			"Top {1} : {2} ({3})"
+		"de"			"Top {1} : {2} ({3})"
+		"pl"			"Top {1} : {2} ({3})"
+		"da"			"Top {1} : {2} ({3})"
+	}
+
+	"DDR_Nothing_Found"
+	{
+		"#format"		"{1:s}"
+		"en"			"{1} Nothing found"
+		"fr"			"{1} Rien n'a été trouvé"
+		"de"			"{1} Nichts gefunden"
+		"pl"			"{1} Nic nie znaleziono"
+		"da"			"{1} Ingenting er fundet"
+	}
+
+	"DDR_Choose_Song"
+	{
+		"en"			"Choose a song"
+		"fr"			"Choisissez une musique"
+		"de"			"Wähle ein Lied"
+		"pl"			"Wybierz utwor"
+		"da"			"Vælg en sang"
+	}
+
+	"DDR_Back_First_Page"
+	{
+		"en"			"back to first page"
+		"fr"			"retour à la première page"
+		"de"			"zurück zur ersten Seite"
+		"pl"			"powrot do pierwszej strony"
+		"da"			"Tilbage til første side"
+	}
+
+	"DDR_Choose_Difficulty"
+	{
+		"#format"		"{1:s}"
+		"en"			"{1} - Choose a difficulty"
+		"fr"			"{1} - Choisissez une difficulté"
+		"de"			"{1} - Wähle eine Schwierigkeit"
+		"pl"			"{1} - Wybierz poziom trudnosci"
+		"da"			"{1} - Vælg en sværhedsgrad"
+	}
+
+	"DDR_Add_Waitlist"
+	{
+		"#format"		"{1:s},{2:d},{3:d}"
+		"en"			"{1} Your song is placed {darkred}{2}/{3}{lightgreen} in wait list!"
+		"fr"			"{1} Votre musique est placée {darkred}{2}/{3}{lightgreen} dans la file !"
+		"de"			"{1} Dein Lied ist Platz {darkred}{2}/{3}{lightgreen} in der Warteliste!"
+		"pl"			"{1} Utwor, ktory wybrales, ma miejsce {darkred}{2}/{3}{lightgreen} na liscie oczekujacych!"
+		"da"			"{1} Din sang er placeret {darkred}{2}/{3}{lightgreen} i ventelisten!"
+	}
+
+	"DDR_Console_Stats_Title"
+	{
+		"en"			"\t\tSong Informations\n"
+		"de"			"\t\tLied Informationen\n"
+	}
+
+	"DDR_Console_Stats_Song"
+	{
+		"#format"		"{1:s},{2:s}"
+		"en"			"\tSong : {1} \t Difficulty : {2}"
+		"fr"			"\tMusique : {1} \t Difficulté : {2}"
+		"de"			"\tLied : {1} \t Schwierigkeit: {2}"
+		"pl"			"\tSong : {1} \t Poziom trudnosci : {2}"
+		"en"			"\tSang : {1} \t sværhedsgrad : {2}"
+	}
+
+	"DDR_Console_Stats_Players"
+	{
+		"#format"		"{1:d},{2:N},{3:d},{4:d},{5:d},{6:d},{7:d},{8:d}"
+		"en"			"\t#{1} | {2}\t | Perfect: {3} | Good: {4} | Miss: {5} | Bad: {6} | Life left : {7} | Max Combo: {8}"
+		"fr"			"\t#{1} | {2}\t | Parfait: {3} | Bien: {4} | Manqué: {5} | Mauvais: {6} | Vie restante : {7} | Max Combo: {8}"
+		"de"			"\t#{1} | {2}\t | Perfekt: {3} | Gut: {4} | Verfehlt: {5} | Schlecht: {6} | Leben übrig : {7} | Max Combo: {8}"
+		"pl"			"\t#{1} | {2}\t | Perfekcyjnie: {3} | Dobrze: {4} | Pudlo: {5} | Zle: {6} | Pozostalo zycia : {7} | Max Combo: {8}"
+		"da"			"\t#{1} | {2}\t | Perfekt: {3} | God: {4} | Mis: {5} | Dårlig: {6} | Liv tilbage : {7} | Max Combo: {8}"
+	}
+
+	"DDR_Chat_Stats_Players"
+	{
+		"#format"		"{1:s},{2:d},{3:N},{4:d},{5:s}"
+		"en"			"{1} [{green}#{2}{lightgreen}] {purple}{3}{lightgreen} - Score: {purple}{4}{lightgreen} - {5}"
+		"fr"			"{1} [{green}#{2}{lightgreen}] {purple}{3}{lightgreen} - Score: {purple}{4}{lightgreen} - {5}"
+		"de"			"{1} [{green}#{2}{lightgreen}] {purple}{3}{lightgreen} - Score: {purple}{4}{lightgreen} - {5}"
+		"pl"			"{1} [{green}#{2}{lightgreen}] {purple}{3}{lightgreen} - Wynik: {purple}{4}{lightgreen} - {5}"
+		"da"			"{1} [{green}#{2}{lightgreen}] {purple}{3}{lightgreen} - Score: {purple}{4}{lightgreen} - {5}"
+	}
+
+	"DDR_Passed"
+	{
+		"en"			"{green}|PASSED|"
+		"fr"			"{green}|GAGNÉ|"
+		"de"			"{green}|GESCHAFFT|"
+		"pl"			"{green}|ZALICZONE|"
+		"da"			"{green}|KLARET|"
+	}
+
+	"DDR_Dead"
+	{
+		"en"			"{darkred}|DEAD|"
+		"fr"			"{darkred}|PERDU|"
+		"de"			"{darkred}|VERSAGT|"
+		"pl"			"{darkred}|NIE ZYJESZ|"
+		"da"			"{darkred}|DØD|"
+	}
+
+	"DDR_Chat_Stats_Players"
+	{
+		"#formnat"		"{1:s},{2:d},{3:N},{4:d},{5:s}"
+		"en"			"{1} [{green}#{2}{lightgreen}] {purple}{3}{lightgreen} - Score: {purple}{4}{lightgreen} - {5}"
+		"fr"			"{1} [{green}#{2}{lightgreen}] {purple}{3}{lightgreen} - Score: {purple}{4}{lightgreen} - {5}"
+		"de"			"{1} [{green}#{2}{lightgreen}] {purple}{3}{lightgreen} - Score: {purple}{4}{lightgreen} - {5}"
+		"pl"			"{1} [{green}#{2}{lightgreen}] {purple}{3}{lightgreen} - Wynik: {purple}{4}{lightgreen} - {5}"
+		"da"			"{1} [{green}#{2}{lightgreen}] {purple}{3}{lightgreen} - Score: {purple}{4}{lightgreen} - {5}"
+	}
+
+	"DDR_Look_Console"
+	{
+		"en"			"{grey}*** For advanced stats look into your console."
+		"fr"			"{grey}*** Pour plus de statistiques, regardez votre console."
+		"de"			"{grey}*** Für eine genauere Statistik schau in Deine Konsole."
+		"pl"			"{grey}*** Po bardziej zdetalizowane statystyki otworz swoja console gry."
+		"da"			"{grey}*** For avancerede statistikker kig ind i din konsol."
+	}
+
+	"DDR_Rank_Hint_Title"
+	{
+		"#format"		"{1:s},{2:s},{3:s}"
+		"en"			"{1} ({2})\n\nPlaytime left: {3}"
+		"fr"			"{1} ({2})\n\nTemps restant: {3}"
+		"de"			"{1} ({2})\n\nVerbleibende Spielzeit: {3}"
+		"pl"			"{1} ({2})\n\nPozostalo czasu: {3}"
+		"da"			"{1} ({2})\n\nSpilletid tilbage: {3}"
+	}
+
+	"DDR_Rank_Hint_Team1_Score"
+	{
+		"#format"		"{1:d},{2:s},{3:d},{4:s}"
+		"en"			"Team 2\nScore: {1}\nPlayers:\n{2}\n\nTeam 1\nScore: {3}\nPlayers:\n{4}"
+		"fr"			"Équipe 2\nScore: {1}\nJoueurs:\n{2}\n\nÉquipe 1\nScore: {3}\nJoueurs:\n{4}"
+		"de"			"Team 2\nScore: {1}\nSpieler:\n{2}\n\nTeam 1\nScore: {3}\nSpieler:\n{4}"
+		"pl"			"Druzyna 2\nScore: {1}\nGracze:\n{2}\n\nDruzyna 1\nScore: {3}\nGracze:\n{4}"
+		"da"			"Hold 2\nScore: {1}\nSpillere:\n{2}\n\nHold 1\nScore: {3}\nSpillere:\n{4}"
+	}
+
+	"DDR_Rank_Hint_Team2_Score"
+	{
+		"#format"		"{1:d},{2:s},{3:d},{4:s}"
+		"en"			"Team 1\nScore: {1}\nPlayers:\n{2}\n\nTeam 2\nScore: {3}\nPlayers:\n{4}"
+		"fr"			"Équipe 1\nScore: {1}\nJoueurs:\n{2}\n\nÉquipe 2\nScore: {3}\nJoueurs:\n{4}"
+		"de"			"Team 1\nScore: {1}\nSpieler:\n{2}\n\nTeam 2\nScore: {3}\nSpieler:\n{4}"
+		"pl"			"Druzyna 1\nWynik: {1}\nGrazce:\n{2}\n\nDruzyna 2\nWynik: {3}\nGracze:\n{4}"
+		"da"			"Hold 2\nScore: {1}\nSpillere:\n{2}\n\nHold 1\nScore: {3}\nSpillere:\n{4}"
+	}
+
+	"DDR_Rank_Hint_Players_Score"
+	{
+		"#format"		"{1:N},{2:d},{3:d},{4:d},{5:d}"
+		"en"			"{1} | Score: {2} | Combo: {3} ({4}) | Life: {5}%%"
+		"fr"			"{1} | Score: {2} | Combo: {3} ({4}) | Vie: {5}%%"
+		"de"			"{1} | Score: {2} | Combo: {3} ({4}) | Leben: {5}%%"
+		"pl"			"{1} | Wynik: {2} | Combo: {3} ({4}) | Zycie: {5}%%"
+		"da"			"{1} | Score: {2} | Combo: {3} ({4}) | Liv: {5}%%"
+	}
+
+	"DDR_Save_Sequence"
+	{
+		"#format"		"{1:s},{2:s}"
+		"en"			"{1} Saving sequence to: {grey}{2}"
+		"fr"			"{1} Musique sauvegardée sous: {grey}{2}"
+		"de"			"{1} Speichere Sequenz in: {grey}{2}"
+		"pl"			"{1} Zapisano sekwencje do: {grey}{2}"
+		"da"			"{1} Gemmer sekvens til: {grey}{2}"
+	}
+
+	"DDR_Please_Wait"
+	{
+		"#format"		"{1:s}"
+		"en"			"{1} Please wait a moment!"
+		"fr"			"{1} Veuillez patienter un moment !"
+		"de"			"{1} Bitte warte einen Moment!"
+		"pl"			"{1} Zaczekaj chwile!"
+		"da"			"{1} Vent venligst et øjeblik!"
+	}
+
+	"DDR_Not_InGame"
+	{
+		"#format"		"{1:s}"
+		"en"			"{1} You are not in a game!"
+		"fr"			"{1} Vous n'êtes pas en jeu !"
+		"de"			"{1} Du bist nicht in einem Spiel!"
+		"pl"			"{1} Nie uczestniczysz w grze!"
+		"da"			"{1} Du er ikke i spillet!"
+	}
+
+	"DDR_Much_Failed"
+	{
+		"#format"		"{1:s},{2:N}"
+		"en"			"{1} {darkred}{2} {lightgreen}has failed too much!"
+		"fr"			"{1} {darkred}{2} {lightgreen}a échoué !"
+		"de"			"{1} {darkred}{2} {lightgreen}hat zu oft versagt!"
+		"pl"			"{1} {darkred}{2} {lightgreen}mial za duzo pomylek!"
+		"da"			"{1} {darkred}{2} {lightgreen}har fejlet formeget!"
+	}
+
+	"DDR_Admin_Panel_Title"
+	{
+		"#format"		"{1:d}"
+		"en"			"Choose a song to edit [{1} songs]"
+		"fr"			"Choisissez une musique à éditer [{1} musiques]"
+		"de"			"Wähle ein Lied zum Bearbeiten [{1} Lieder]"
+		"pl"			"Wybierz utwor do edycji [{1} utworow]"
+		"da"			"Vælg en sang og redigere [{1} sange]"
+	}
+
+	"DDR_Song_Selection"
+	{
+		"en"			"Back to song selection"
+		"fr"			"Retour à la sélection"
+		"de"			"Zurück zur Liedauswahl"
+		"pl"			"Powrot do wyboru utworu"
+		"da"			"Tilbage og vælge en sang"
+	}
+
+	"DDR_Test_Song"
+	{
+		"en"			"Test this song"
+		"fr"			"Tester cette musique"
+		"de"			"Lied testen"
+		"pl"			"Przetestuj utwor"
+		"da"			"Test denne sang"
+	}
+
+	"DDR_Play_Song"
+	{
+		"en"			"Play this song"
+		"fr"			"Jouer cette musique"
+		"de"			"Lied spielen"
+		"pl"			"Graj ten utwor"
+		"da"			"Spil denne sang"
+	}
+
+	"DDR_Record_Song"
+	{
+		"en"			"Record sequence"
+		"fr"			"Enregistrer cette musique"
+		"de"			"Sequenz aufnehmen"
+		"pl"			"Nagraj sekwencje"
+		"da"			"Optag sekvensen"
+	}
+
+	"DDR_Delete_Song"
+	{
+		"en"			"Delete sequence"
+		"fr"			"Supprimer cette musique"
+		"de"			"Sequenz löschen"
+		"pl"			"Usun sekwencje"
+		"da"			"Slet sekvensen"
+	}
+
+	"DDR_File_Not_Found"
+	{
+		"#format"		"{1:s},{2:s},{3:s},{4:s}"
+		"en"			"{1} File not found {darkred}{2}{lightgreen} {{3}}({4})"
+		"fr"			"{1} Fichier introuvable {darkred}{2}{lightgreen} {{3}}({4})"
+		"de"			"{1} Datei nicht gefunden {darkred}{2}{lightgreen} {{3}}({4})"
+		"pl"			"{1} Nie znaleziono pliku {darkred}{2}{lightgreen} {{3}}({4})"
+		"da"			"{1} Filen er ikke fundet {darkred}{2}{lightgreen} {{3}}({4})"
+	}
+
+	"DDR_Play_Music"
+	{
+		"#format"		"{1:s},{2:s},{3:s},{4:s}"
+		"en"			"{1} Playing: {darkred}{2} {lightgreen}({{3}}{4}{lightgreen})"
+		"fr"			"{1} Jouer: {darkred}{2} {lightgreen}({{3}}{4}{lightgreen})"
+		"de"			"{1} Starte: {darkred}{2} {lightgreen}({{3}}{4}{lightgreen})"
+		"pl"			"{1} Obecnie grane: {darkred}{2} {lightgreen}({{3}}{4}{lightgreen})"
+		"da"			"{1} Spiller: {darkred}{2} {lightgreen}({{3}}{4}{lightgreen})"
+	}
+
+	"DDR_Record_Not_Allow"
+	{
+		"#format"		"{1:s}"
+		"en"			"{1} {lightgreen}A song has been started by players you can't record now!"
+		"fr"			"{1} {lightgreen}Une musique a été lancée par les joueurs, vous devez attendre !"
+		"de"			"{1} {lightgreen}Es wurde von Spielern ein Lied gestartet, Du kannst gerade nicht aufnehmen!"
+		"pl"			"{1} {lightgreen}Utwor zostal wystartowany. Nie mozesz teraz nagrywac!"
+		"da"			"{1} {lightgreen}En sang er blevet started af spillerne, du kan ikke optage nu!"
+	}
+
+	"DDR_File_Deleted"
+	{
+		"#format"		"{1:s},{2:s},{3:s},{4:s}"
+		"en"			"{1} File Deleted: {darkred}{2}{lightgreen} {{3}}({4})"
+		"fr"			"{1} Fichier supprimé: {darkred}{2}{lightgreen} {{3}}({4})"
+		"de"			"{1} Datei gelöscht: {darkred}{2}{lightgreen} {{3}}({4})"
+		"pl"			"{1} Usunieto plik: {darkred}{2}{lightgreen} {{3}}({4})"
+		"da"			"{1} Fil slettet: {darkred}{2}{lightgreen} {{3}}({4})"
+	}
+
+	"DDR_Start_Recording"
+	{
+		"#format"		"{1:s},{2:s},{3:s},{4:s}"
+		"en"			"{1} Recording {darkred}{2}{lightgreen} {{3}}({4})"
+		"fr"			"{1} Enregistrement de {darkred}{2}{lightgreen} {{3}}({4})"
+		"de"			"{1} Aufnahme von {darkred}{2}{lightgreen} {{3}}({4})"
+		"pl"			"{1} Nagrywanie {darkred}{2}{lightgreen} {{3}}({4})"
+		"da"			"{1} Optager {darkred}{2}{lightgreen} {{3}}({4})"
+	}
+
+	"DDR_Start_Recording_Stop"
+	{
+		"#format"		"{1:s}"
+		"en"			"{1} Type {purple}!stop{lightgreen} to stop recording."
+		"fr"			"{1} Tapez {purple}!stop{lightgreen} pour mettre fin à l'enregistrement."
+		"de"			"{1} Schreibe {purple}!stop{lightgreen} um die Aufnahme zu beenden."
+		"pl"			"{1} Aby przestac nagrywac wpisz {purple}!stop{lightgreen}."
+		"da"			"{1} Type {purple}!stop{lightgreen} for at stoppe med at optage."
+	}
+
+	"DDR_Combo_Announce"
+	{
+		"#format"		"{1:s},{2:N},{3:d}"
+		"en"			"{1} {darkred}{2} {lightgreen}reached {purple}{3} Combos{lightgreen}!"
+		"fr"			"{1} {darkred}{2} {lightgreen}a atteint {purple}{3} Combos {lightgreen}!"
+		"de"			"{1} {darkred}{2} {lightgreen}erreichte {purple}{3} Combos{lightgreen}!"
+		"pl"			"{1} {darkred}{2} {lightgreen}osiagnal {purple}{3} Combo{lightgreen}!"
+		"da"			"{1} {darkred}{2} {lightgreen}opnået {purple}{3} Combos{lightgreen}!"
+	}
+
+	"DDR_Perfect_Combo"
+	{
+		"#format"		"{1:s},{2:d}"
+		"en"			"{1} You receive {purple}{2} {lightgreen}bonus points!"
+		"de"			"{1} Sie erhalten {purple}{2} {lightgreen}Bonuspunkte!"
+	}
+
+	"DDR_None_Playing"
+	{
+		"#format"		"{1:s}"
+		"en"			"{1} {lightgreen}None was playing, abort!"
+		"fr"			"{1} {lightgreen}Personne ne joue, interruption !"
+		"de"			"{1} {lightgreen}Keiner spielt, Abbruch!"
+		"pl"			"{1} {lightgreen}Nikt nie byl w grze, utwor nie zostal zastartowany!"
+		"da"			"{1} {lightgreen}Ingen spillede, afbryd!"
+	}
+
+	"DDR_All_Players_Failed"
+	{
+		"#format"		"{1:s}"
+		"en"			"{1} {lightgreen}All players failed!"
+		"fr"			"{1} {lightgreen}Tous les joueurs ont échoué !"
+		"de"			"{1} {lightgreen}Alle haben versagt!"
+		"pl"			"{1} {lightgreen}Koniec utworu!"
+		"da"			"{1} {lightgreen}Alle spillere fejlede!"
+	}
+
+	"DDR_Player_Play_Song"
+	{
+		"#format"		"{1:s},{2:d},{3:s}"
+		"en"			"{1} {darkred}{2} {lightgreen}player{3} in this game!"
+		"fr"			"{1} {darkred}{2} {lightgreen}joueur{3} dans cette partie !"
+		"de"			"{1} {darkred}{2} {lightgreen}Spieler in diesem Spiel!"
+		"pl"			"{1} {darkred}{2} {lightgreen}gracz{3} w tej grze!"
+		"da"			"{1} {darkred}{2} {lightgreen}spiller{3} i det her spil!"
+	}
+
+	"DDR_Player_Left"
+	{
+		"#format"		"{1:s},{2:d},{3:s}"
+		"en"			"{1} {darkred}{2} {lightgreen}player{3} left!"
+		"fr"			"{1} {darkred}{2} {lightgreen}joueur{3} restant !"
+		"de"			"{1} {darkred}{2} {lightgreen}Spieler verbleiben!"
+		"pl"			"{1} {darkred}{2} {lightgreen}gracz{3} wyszedl z gry!"
+		"da"			"{1} {darkred}{2} {lightgreen}spiller{3} venstre!"
+	}
+
+	"DDR_Song_Ends"
+	{
+		"#format"		"{1:s}"
+		"en"			"{1} {lightgreen}Song ends!"
+		"fr"			"{1} {lightgreen}Musique terminée !"
+		"de"			"{1} {lightgreen}Lied beendet!"
+		"pl"			"{1} {lightgreen}Koniec utworu!"
+		"da"			"{1} {lightgreen}Sangen slutter!"
+	}
+
+	"DDR_Team_Draw"
+	{
+		"#format"		"{1:s}"
+		"en"			"{1} {grey}Draw, no team wins!"
+		"fr"			"{1} {grey}Égalité, aucune équipe n'a gagné !"
+		"de"			"{1} {grey}Unentschieden, kein Team hat gewonnen!"
+	}
+
+	"DDR_Team1_Win"
+	{
+		"#format"		"{1:s}"
+		"en"			"{1} {purple}Team 1 wins!"
+		"fr"			"{1} {purple}L'Équipe 1 gagne !"
+		"de"			"{1} {purple}Team 1 hat gewonnen!"
+	}
+
+	"DDR_Team2_Win"
+	{
+		"#format"		"{1:s}"
+		"en"			"{1} {purple}Team 2 wins!"
+		"fr"			"{1} {purple}L'Équipe 2 gagne !"
+		"de"			"{1} {purple}Team 2 hat gewonnen!"
+	}
+
+	"DDR_You_Failed"
+	{
+		"en"			"-- YOU FAILED -- Wait for other player(s) finishing the song"
+		"fr"			"-- TU AS PERDU -- Les autres joueurs doivent finir la musique"
+		"de"			"-- DU HAST VERSAGT -- Warte bis zum Schluss auf die anderen"
+	}
+
+	"DDR_You_Cant_Play"
+	{
+		"en"			"-- You can't play anymore --"
+		"fr"			"-- Tu ne peux plus jouer --"
+		"de"			"-- Du kannst nicht weiterspielen"
+	}
+
+	"DDR_Rank_Up"
+	{
+		"#format"		"{1:s},{2:N},{3:d}"
+		"en"			"{1} {purple}{2} {lightgreen}reached level {purple}{3}"
+		"fr"			"{1} {purple}{2} {lightgreen}a atteint le niveau {purple}{3}"
+		"de"			"{1} {purple}{2} {lightgreen}ist jetzt Level {purple}{3}"
+	}
+
+	"DDR_NPC_Bar_Title"
+	{
+		"en"			"What do you like to drink?"
+		"fr"			"Que voulez-vous boire ?"
+		"de"			"Was willste trinken?"
+	}
+
+	"DDR_NPC_Bar_Drink1"
+	{
+		"en"			"Water"
+		"fr"			"Eau"
+		"de"			"Wasser"
+	}
+
+	"DDR_NPC_Bar_Drink2"
+	{
+		"en"			"Lemonade"
+		"fr"			"Limonade"
+		"de"			"Fanta mit Schuss"
+	}
+
+	"DDR_NPC_Bar_Drink3"
+	{
+		"en"			"Beer"
+		"fr"			"Bière"
+		"de"			"Bier"
+	}
+
+	"DDR_NPC_Bar_Drink4"
+	{
+		"en"			"Vodka"
+		"fr"			"Vodka"
+		"de"			"Vodka"
+	}
+
+	"DDR_NPC_Bar_Drink1_Result"
+	{
+		"en"			"{lightgreen} You've drunk some {purple}water{lightgreen}."
+		"fr"			"{lightgreen} Vous venez de boire de {purple}l'eau{lightgreen}."
+		"de"			"{lightgreen} Du hast {purple}Wasser {lightgreen}getrunken."
+	}
+
+	"DDR_NPC_Bar_Drink2_Result"
+	{
+		"en"			"{lightgreen} You've drunk some {lime}lemonade{lightgreen}."
+		"fr"			"{lightgreen} Vous venez de boire de la {lime}limonade{lightgreen}."
+		"de"			"{lightgreen} Du hast {lime}Fanta mit Schuss {lightgreen}getrunken."
+	}
+
+	"DDR_NPC_Bar_Drink3_Result"
+	{
+		"en"			"{lightgreen} You've drunk some {bluegrey}beer{lightgreen}."
+		"fr"			"{lightgreen} Vous venez de boire de la {bluegrey}bière{lightgreen}."
+		"de"			"{lightgreen} Du hast {bluegrey}Bier {lightgreen}getrunken."
+	}
+
+	"DDR_NPC_Bar_Drink4_Result"
+	{
+		"en"			"{lightgreen} You've drunk some {grey2}vodka{lightgreen}."
+		"fr"			"{lightgreen} Vous venez de boire de la {grey2}vodka{lightgreen}."
+		"de"			"{lightgreen} Du hast {grey2}Vodka {lightgreen}getrunken."
+	}
+
+	"DDR_NPC_Dealer_Title"
+	{
+		"en"			"What do you like to take?"
+		"fr"			"Que voulez-vous prendre ?"
+		"de"			"Was willste schlucken?"
+	}
+
+	"DDR_NPC_Dealer_Drug1"
+	{
+		"en"			"Weed"
+		"fr"			"Herbe"
+		"de"			"Gras"
+	}
+
+	"DDR_NPC_Dealer_Drug2"
+	{
+		"en"			"LSD"
+		"fr"			"LSD"
+		"de"			"LSD"
+	}
+
+	"DDR_NPC_Dealer_Drug1_Result"
+	{
+		"en"			"{purple}You've {lightgreen}smoked {green}some {lightgreen}weed!"
+		"fr"			"{purple}Vous venez de {lightgreen}fumer {green}de {lightgreen}l'herbe !"
+		"de"			"{purple}Du hast {lightgreen}ein {green}bisschen {lightgreen}Gras {orchid}geraucht{purple}!"
+	}
+
+	"DDR_NPC_Dealer_Drug2_Result"
+	{
+		"en"			"{purple}You've {lightgreen}taken {green}some {lightgreen}LSD!"
+		"fr"			"{purple}Vous venez de {lightgreen}prendre {green}de la {lightgreen}LSD !"
+		"de"			"{purple}Du hast {lightgreen}L{lightgreen}S{green}D {purple}genommen!"
+	}
+
+	"DDR_Command_Level"
+	{
+		"#format"		"{1:s},{2:N},{3:d}"
+		"en"			"{1} {darkred}{2} {lightgreen}is on level {purple}{3}."
+		"de"			"{1} {darkred}{2} {lightgreen}ist auf Level {purple}{3}."
+	}
+
+	"DDR_Admin_Reset"
+	{
+		"#format"		"{1:s},{2:N}"
+		"en"			"{1} {darkred}{2} {lightgreen}has reset all functions!"
+		"de"			"{1} {darkred}{2} {lightgreen}hat alle Funktionen zurückgesetzt!"
+	}
+
+	"DDR_Recording"
+	{
+		"#format"		"{1:s},{2:d},{3:s},{4:s},{5:s},{6:s}"
+		"en"			"{darkred}[Record] #{purple}{1}{lightgreen} | {purple}{2}{lightgreen} |{green}  {3} {4} {5} {6}"
+	}
+
+	"DDR_T_Join"
+	{
+		"#format"		"{1:s}"
+		"en"			"{1} {darkred}You {lightgreen}enter the dance floor! {purple}Have fun!"
+		"de"			"{1} {darkred}Du {lightgreen}betrittst die Tanzfläche! {purple}Viel Spaß!"
+	}
+
+	"DDR_T_Join_Other"
+	{
+		"#format"		"{1:s},{2:N}"
+		"en"			"{1} {darkred}{2} {lightgreen}enter the dance floor!"
+		"de"			"{1} {darkred}{2} {lightgreen}betritt die Tanzfläche!"
+	}
+
+	"DDR_Player_Leave"
+	{
+		"#format"		"{1:s},{2:N}"
+		"en"			"{1} {darkred}{2} {lightgreen}left the dance floor!"
+		"de"			"{1} {darkred}{2} {lightgreen}verlässt die Tanzfläche!"
+	}
+	
+	"DDR_Zone_NotAllowed"
+	{
+		"#format"		"{1:s},{2:d}"
+		"en"			"{1} {purple}You {darkred}have no access for this zone! {lightgreen}This is only possible as a VIP (You need level {2}) or Admin!"
+		"de"			"{1} {purple}Du {darkred}hast nicht die Befugnis diesen Bereich zu betreten! {lightgreen}Dies ist nur als VIP (Ab Level {2}) und Admin möglich."
+	}
+	
+	"DDR_Active_Download_Filter"
+	{
+		"#format"		"{1:s}"
+		"en"			"cl_downloadfilter \"{1}\". Please set it to \"all\"!"
+		"de"			"cl_downloadfilter \"{1}\". Bitte setze diesen Wert auf \"all\"!"
+	}
+	
+	"DDR_Rank_Panel_Team1_Score"
+	{
+		"#format"		"{1:d}"
+		"en"			"Team 1 | Score: {1}"
+		"de"			"Team 1 | Score: {1}"
+	}
+	
+	"DDR_Rank_Panel_Team2_Score"
+	{
+		"#format"		"{1:d}"
+		"en"			"Team 2 | Score: {1}"
+		"de"			"Team 2 | Score: {1}"
+	}
+	
+	"DDR_Rename_Song"
+	{
+		"en"			"Change difficulty"
+		"de"			"Schwierigkeitsgrad ändern"
+	}
+	
+	"DDR_Choose_Game"
+	{
+		"en"			"Choose a game"
+		"de"			"Wähle ein Spiel"
+	}
+	
+	"DDR_BackToLobby"
+	{
+		"#format"		"{1:s}"
+		"en"			"{1} Use '{darkred}!lobby{lightgreen}' to return to the lobby."
+		"de"			"{1} Nutze '{darkred}!lobby{lightgreen}' um zur Lobby zurückzukommen."
+	}
+	
+	"DDR_Console_Team1_Stats"
+	{
+		"#format"		"{1:d}"
+		"en"			"\tScore: {1}"
+		"de"			"\tScore: {1}"
+	}
+	
+	"DDR_Console_Team2_Stats"
+	{
+		"#format"		"{1:d}"
+		"en"			"\tScore: {1}"
+		"de"			"\tScore: {1}"
+	}
+	
+	"DDR_Console_Team_Draw"
+	{
+		"en"			"Draw, no team wins!\n\n"
+		"fr"			"Égalité, aucune équipe n'a gagné !\n\n"
+		"de"			"Unentschieden, kein Team hat gewonnen!\n\n"
+	}
+
+	"DDR_Console_Team1_Win"
+	{
+		"en"			"\tTeam 1 wins!\n\n"
+		"fr"			"\tL'Équipe 1 gagne !\n\n"
+		"de"			"\tTeam 1 hat gewonnen!\n\n"
+	}
+
+	"DDR_Console_Team2_Win"
+	{
+		"en"			"\tTeam 2 wins!\n\n"
+		"fr"			"\tL'Équipe 2 gagne !\n\n"
+		"de"			"\tTeam 2 hat gewonnen!\n\n"
+	}
+	
+	"DDR_Console_Team1_Players"
+	{
+		"#format"		"{1:s}"
+		"en"			"\tPlayers: {1}"
+		"de"			"\tSpieler: {1}"
+	}
+
+	"DDR_Console_Team2_Players"
+	{
+		"#format"		"{1:s}"
+		"en"			"\tPlayers: {1}"
+		"de"			"\tSpieler: {1}"
+	}
+	
+	"DDR_Console_Title"
+	{
+		"en"			"\n\t\tDDR - Dance Dance Revolution\n"
+		"de"			"\n\t\tDDR - Dance Dance Revolution\n"
+	}
+	
+	"DDR_Console_Team_Title"
+	{
+		"en"			"\t\tTeam Statistics\n"
+		"de"			"\t\tTeam Statistiken\n"
+	}
+	
+	"DDR_Console_Player_Title"
+	{
+		"en"			"\t\tPlayer Statistics\n"
+		"de"			"\t\tSpieler Statistiken\n"
+	}
+	
+	"DDR_Chat_Logo"
+	{
+		"en"			"{darkred}[DDR] {lightgreen}"
+		"de"			"{darkred}[DDR] {lightgreen}"
+	}
+}

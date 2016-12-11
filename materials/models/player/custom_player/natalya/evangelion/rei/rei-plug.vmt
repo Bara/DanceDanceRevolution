@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\player\custom_player\natalya\evangelion\rei\rei-plug"
+	"$nocull" "1"
+}

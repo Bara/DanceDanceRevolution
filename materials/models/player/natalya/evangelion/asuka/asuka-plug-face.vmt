@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\player\natalya\evangelion\asuka\asuka-plug-face"
+	"$nocull" "1"
+}

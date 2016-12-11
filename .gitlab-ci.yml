@@ -1,0 +1,7 @@
+DDR18:
+  script:
+    - bash ci/build.sh "1.8" $FTP_HOST $FTP_USER $FTP_PASS 
+
+DDR17:
+  script:
+    - bash ci/build17.sh "1.7" 
