@@ -69,6 +69,7 @@ rm -r build/addons/sourcemod/gamedata
 rm -r build/addons/sourcemod/scripting
 rm -r build/addons/sourcemod/translations
 rm build/addons/sourcemod/*.txt
+rm -r build/cfg/sourcemod
 
 echo "Add LICENSE to build package"
 cp LICENSE build/
