@@ -3,8 +3,8 @@
 git fetch --unshallow
 COUNT=$(git rev-list --count HEAD)
 HASH="$(git log --pretty=format:%h -n 1)"
-FILE=ttt-$2-$1-$COUNT-$HASH.zip
-LATEST=ttt-latest-$2-$1.zip
+FILE=ddr-$2-$1-$COUNT-$HASH.zip
+LATEST=ddr-latest-$2-$1.zip
 HOST=$3
 USER=$4
 PASS=$5
