@@ -1836,13 +1836,30 @@ public int ActionDifficulty(Menu menu, MenuAction action, int client, int params
 			delete menu;
 }
 
-void HUD_ChangeBackground(int music_id = -1)
+void HUD_BackgroundOff()
 {
-	// TODO: Fix Background (csgo)
-	char sName[256], sBuffer[80], sOldBuffer[256];
+	char sName[256], sBuffer[256];
 	
 	if (strlen(g_StringLastTableau)  >= 2)
-		Format(sOldBuffer, sizeof(sOldBuffer), "tableau_%s_off", g_StringLastTableau);
+		Format(sBuffer, sizeof(sBuffer), "tableau_%s_off", g_StringLastTableau);
+	
+	if (strlen(sBuffer)  >= 2)
+	{
+		int iEnt;
+		
+		while ((iEnt = FindEntityByClassname(iEnt, "logic_relay")) != -1)
+		{
+			GetEntPropString(iEnt, Prop_Data, "m_iName", sName, sizeof(sName));
+			
+			if (StrEqual(sName, sBuffer))
+				AcceptEntityInput(iEnt, "Trigger");
+		}
+	}
+}
+
+void HUD_BackgroundOn(int music_id = -1)
+{
+	char sName[256], sBuffer[256];
 	
 	if (music_id != -1)
 	{
@@ -1854,7 +1871,7 @@ void HUD_ChangeBackground(int music_id = -1)
 		}
 	}
 	
-	if (strlen(sBuffer)  >= 2 || strlen(sOldBuffer)  >= 2)
+	if (strlen(sBuffer)  >= 2)
 	{
 		int iEnt;
 		
@@ -1862,9 +1879,7 @@ void HUD_ChangeBackground(int music_id = -1)
 		{
 			GetEntPropString(iEnt, Prop_Data, "m_iName", sName, sizeof(sName));
 			
-			if (StrEqual(sName, sOldBuffer))
-				AcceptEntityInput(iEnt, "Trigger");
-			else if (StrEqual(sName, sBuffer))
+			if (StrEqual(sName, sBuffer))
 				AcceptEntityInput(iEnt, "Trigger");
 		}
 	}
@@ -1934,7 +1949,7 @@ void PlayMusic(int client, int music_id, int difficulty)
 		g_bAllowStop = false;
 		CreateTimer(5.0, Timer_SetStop);
 		
-		HUD_ChangeBackground(music_id);
+		HUD_BackgroundOn(music_id);
 		// AcceptEntityInput(test_relay, "Trigger");
 		status = STATUS_IN_GAME;
 		LoopClients(i)
@@ -2759,7 +2774,7 @@ public Action Timer_EndMusic(Handle timer, any timerid)
 	}
 	g_bInEnding = false;
 	
-	HUD_ChangeBackground();
+	HUD_BackgroundOff();
 	
 	char sBuffer[64];
 	ArrayMusicName.GetString(g_iLastPlayedId, sBuffer, sizeof(sBuffer));
